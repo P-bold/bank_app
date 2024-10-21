@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking App Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Swiss Bank</h1>
+    <section id="banking">
+        <h3>Operations</h3>
+        <form id="bankForm">
+            <label for="accountNumber">Account Number:</label>
+            <input type="number" id="accountNumber" name="accountNumber" required>
+            <br><br>
+            <label for="operation">Select Operation:</label>
+            <select id="operation" name="operation">
+                <option value="deposit">Deposit</option>
+                <option value="transfer">Transfer</option>
+                <option value="loan">Request Loan</option>
+                <option value="balance">Check Balance</option>
+            </select>
+            <br><br>
+            <label for="amount">Amount (for deposit, transfer, or loan):</label>
+            <input type="number" id="amount" name="amount">
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="outputSection">
+        <h3>Status</h3>
+        <div id="output"></div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1729479258~exp=1729482858~hmac=edafc8ceda947eb639e9ac6d61053127ea65e881f174d615e850bd5752444c28&w=740');
+    background-size: cover, no-repeat;
+    padding: 0px;
+    width: 300px;
+    margin-left: 25%;
+    height: 100vh;
+}
+
+h1 {
+    color: #050302;
+    text-align: center;
+    margin-left: 40%;
+}
+
+#banking {
+    background-color: #081c72;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    height: 75vh;
+    width: 500px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input, form select {
+    padding: 5px;
+    align-items: center;
+    margin-bottom: 3px;
+    border: 1px solid #0f0d0d;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #1ae7ee;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+#outputSection {
+    margin-top: 10px;
+}
+
+#output p {
+    font-size: 18px;
+    color: #28a745;
+}
+
